@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, OrderedLocalBroadcastProjectActivity!</string>
+    <string name="app_name">OrderedLocalBroadcastProject</string>
+    
+    <string name="btn_send">Send Ordered BC</string>
+    <string name="btn_send_with_consume">Send Ordered BC With Consume</string>
+    <string name="expl_send">Sends an ordered local broadcast to three registered receivers, each with a specific priority. The receivers should receive the intent in the descending order of their priorities.</string>
+    <string name="expl_send_consume">Sends an ordered local broadcast to three registered receivers, each with a specific priority. The medium priority receiver consumes the broadcast. The least priority receiver should not receive the broadcast at all.</string>
+
+</resources>
