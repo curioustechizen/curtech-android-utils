@@ -17,3 +17,7 @@ You need to register instances of `LocalBroadcastReceiver` if you wish to be abl
 
 - Other variants of `sendOrderedBroadcast`, in particular one which takes a resultReceiver as argument.
 - Ability to set and get result data in the `LocalBroadcastReceiver`. In other words, the `setResult*` and `getResult*` methods.
+
+
+####Acknowledgements
+I wouldn't even have started writing this library if it weren't for advice from [Mark Murphy](http://commonsware.com/mmurphy) of commonsware fame. Throughout the implementation too, I constantly received tips from him. Thanks, Mark!
