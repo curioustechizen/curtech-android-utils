@@ -3,3 +3,5 @@ gen/
 .settings/
 .project
 .classpath
+local.properties
+build.xml
